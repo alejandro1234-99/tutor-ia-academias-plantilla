@@ -101,6 +101,7 @@ pasos ni des nada por hecho: quien lo instala puede no haber programado nunca.
 |---|---|
 | Instalarlo o probarlo | `INSTALAR.md` |
 | Montárselo a una academia de verdad | `MONTAR-CLIENTE.md` |
+| Ponerlo en internet para una academia: cuentas, costes, dominio y correo | `PUBLICAR.md` |
 | Entender qué hace el producto o cambiarlo | `SOLUCION.md` (es el documento que manda) |
 | Saber cómo se construyó, capa a capa | `PLAN.md` (histórico: ya está todo construido) |
 | Cambiar el diseño | `diseno/README.md` y `PROMPT-CLAUDE-DESIGN.md` |

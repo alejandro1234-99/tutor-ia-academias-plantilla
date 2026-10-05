@@ -37,10 +37,10 @@ ejemplo y, si quieres, publicada en internet.
 | **Claude, plan Pro o superior** | Usar Claude Code, que es quien instala todo | La suscripción de Claude |
 | **GitHub** | Guardar tu copia del proyecto | Gratis |
 | **Supabase** | La base de datos | Gratis para probar. Para una academia de verdad, plan Pro (unos 25 $ al mes, con copias de seguridad diarias) |
-| **Anthropic (console.anthropic.com)** | La inteligencia artificial del asistente | Pago por uso: unos 3 céntimos por pregunta y de 11 a 18 céntimos por material. Para probar bastan 5 € |
-| **Vercel** | Publicar la web | Gratis para probar. Para cobrar a una academia, plan Pro (20 $ al mes, sirve para todas) |
-| **Resend** | Mandar los correos para entrar | Gratis hasta 3.000 correos al mes. Necesita un dominio propio para escribir a alumnos de verdad |
-| **Voyage AI** (opcional) | La búsqueda por significado en el temario | Gratis los primeros 200 millones de tokens, pero pide tarjeta para quitar el límite de 3 búsquedas por minuto |
+| **Anthropic (platform.claude.com)** | La inteligencia artificial del asistente | Pago por uso: unos 3 céntimos por pregunta y de 11 a 18 céntimos por material. Para probar bastan 5 € |
+| **Vercel** | Publicar la web | Gratis para probar. Para cobrar a una academia, plan Pro (20 $ al mes, sirve para todas): el gratis no se puede usar con clientes |
+| **Resend** | Mandar los correos para entrar | Gratis hasta 100 correos al día y 3.000 al mes. Necesita un dominio propio para escribir a alumnos de verdad |
+| **Voyage AI** (opcional) | La búsqueda por significado en el temario | Gratis los primeros 200 millones de tokens, pero pide tarjeta para quitar el límite de 3 búsquedas por minuto. Antes de usarla con una academia, desactiva que entrene con tus datos ([PUBLICAR.md](PUBLICAR.md), paso A5) |
 
 **Para probarlo en tu ordenador solo hacen falta las cuatro primeras.** Y si
 quieres verlo sin gastar nada en IA, hay una IA de prueba (paso 3).
@@ -166,7 +166,8 @@ contraseña de la dirección está mal escrita (o se quedaron los corchetes).
 
 **Lo hace la persona, si quiere la IA de verdad (recomendado):**
 
-1. Entra en https://console.anthropic.com, ve a **Billing** y carga 5 €.
+1. Entra en https://platform.claude.com (antes console.anthropic.com), ve a
+   **Settings** → **Billing** y carga 5 €.
 2. Ve a **API Keys** → **Create Key**, ponle de nombre el del proyecto y
    cópiala. Solo se ve una vez.
 3. Pégala en `.env.local`, en la línea `ANTHROPIC_API_KEY=`. Guarda.
@@ -260,8 +261,8 @@ con el mensaje «Mi marca en el pie» y subirlo a GitHub.
 Para enseñar la demo basta con tu ordenador. Publicarla tiene sentido cuando
 vayas a montarla para una academia, porque para que los correos lleguen a
 personas de verdad hace falta un dominio y Resend. **Para una academia real,
-sigue [MONTAR-CLIENTE.md](MONTAR-CLIENTE.md)**, que incluye este paso con su
-dominio.
+sigue [MONTAR-CLIENTE.md](MONTAR-CLIENTE.md)** y, para las cuentas, el dominio y
+el correo pantalla a pantalla, [PUBLICAR.md](PUBLICAR.md).
 
 Si aun así quieres una dirección de prueba en internet:
 
@@ -291,6 +292,7 @@ montan con el dominio de la academia (MONTAR-CLIENTE.md, paso 2).
 |---|---|
 | Enseñársela a una academia | Graba la demo de 3 minutos del paso 4 y pide 15 minutos al dueño |
 | Montársela a una academia que ha dicho que sí | [MONTAR-CLIENTE.md](MONTAR-CLIENTE.md), con Claude, paso a paso |
+| Ponerla en internet para esa academia | [PUBLICAR.md](PUBLICAR.md): cuentas, costes, dominio y correo, pantalla a pantalla |
 | Entender qué hace cada pantalla | [SOLUCION.md](SOLUCION.md) y las capturas de [docs/pantallas](docs/pantallas/index.html) |
 | Cambiar o añadir algo al producto | Primero lo escribes en SOLUCION.md con Claude, después se construye |
 | Retomar otro día | [EMPEZAR-AQUI.md](EMPEZAR-AQUI.md) |

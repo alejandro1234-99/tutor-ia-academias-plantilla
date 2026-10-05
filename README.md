@@ -111,6 +111,11 @@ PDF con texto, las 50 dudas típicas de sus alumnos, la lista de alumnos), los
 seis pasos del día con sus tiempos y la lista final de entrega. Dile a Claude:
 «Vamos a montar la academia <nombre> siguiendo MONTAR-CLIENTE.md».
 
+**Para ponerla en internet**, [PUBLICAR.md](PUBLICAR.md) lo cuenta cuenta a
+cuenta y pantalla a pantalla: qué abrir en Vercel, Supabase, Anthropic, Resend
+y Voyage, a nombre de quién, cuánto cuesta cada una y qué pedirle a quien lleva
+el dominio de la academia. Sin servidor propio que mantener.
+
 **Cada academia es una copia aparte:** su repositorio, su base de datos, su
 dirección web y su archivo de configuración (`academias/<academia>/configuracion.jsonc`).
 Nada de una academia concreta está escrito en el código.
@@ -145,6 +150,7 @@ cuentas completas están en [SOLUCION.md](SOLUCION.md), secciones 7 y 29.
 |---|---|
 | [INSTALAR.md](INSTALAR.md) | De cero a la app funcionando. Lo sigue Claude contigo |
 | [MONTAR-CLIENTE.md](MONTAR-CLIENTE.md) | Montársela a una academia en un día |
+| [PUBLICAR.md](PUBLICAR.md) | Ponerla en internet para una academia: las cuentas, lo que cuestan y cada pantalla de Vercel, Supabase, Anthropic, Resend y el dominio |
 | [SOLUCION.md](SOLUCION.md) | Qué hace el producto, pantalla por pantalla, con sus reglas, sus costes y sus criterios de aceptación. Es el documento que manda |
 | [PLAN.md](PLAN.md) | Cómo se construyó, en 21 capas (histórico) |
 | [PROMPT-CLAUDE-DESIGN.md](PROMPT-CLAUDE-DESIGN.md) y [diseno/](diseno/README.md) | El encargo de diseño y el diseño de partida |

@@ -89,6 +89,11 @@ comprueba igual.
 
 **Qué se hace:** un almacén de datos y una dirección web solo para esta academia.
 
+**El detalle, pantalla a pantalla, está en [PUBLICAR.md](PUBLICAR.md)** (pasos
+B2 a B8): las cuentas que hacen falta y a nombre de quién, lo que cuestan, qué
+se pulsa en cada web y el mensaje para quien lleva el dominio de la academia.
+Aquí queda el resumen.
+
 1. **Supabase:** crear un proyecto nuevo **en la región de París (Unión
    Europea)**, «West EU (Paris)». Nunca en otra región. Apuntar la contraseña
    de la base de datos en el gestor de contraseñas.

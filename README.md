@@ -146,11 +146,13 @@ cuentas completas están en [SOLUCION.md](SOLUCION.md), secciones 7 y 29.
 
 ## Los documentos
 
+Las guías van por orden, con los mismos nombres que en el kit de la clase: 1 Pruébalo, 2 Véndelo (solo en el kit: la demo, el precio y el contrato), 3 Ponlo en internet y 4 Móntaselo. Kit: https://revolutia-academias-kit.vercel.app/marca-blanca.html
+
 | Documento | Para qué |
 |---|---|
-| [INSTALAR.md](INSTALAR.md) | De cero a la app funcionando. Lo sigue Claude contigo |
-| [MONTAR-CLIENTE.md](MONTAR-CLIENTE.md) | Montársela a una academia en un día |
-| [PUBLICAR.md](PUBLICAR.md) | Ponerla en internet para una academia: las cuentas, lo que cuestan y cada pantalla de Vercel, Supabase, Anthropic, Resend y el dominio |
+| [INSTALAR.md](INSTALAR.md) | **Paso 1 · Pruébalo.** De cero a la app funcionando en tu ordenador. Lo sigue Claude contigo |
+| [PUBLICAR.md](PUBLICAR.md) | **Paso 3 · Ponlo en internet** para una academia: las cuentas, lo que cuestan y cada pantalla de Vercel, Supabase, Anthropic, Resend y el dominio |
+| [MONTAR-CLIENTE.md](MONTAR-CLIENTE.md) | **Paso 4 · Móntaselo.** El día de la entrega: su marca, su temario, su equipo y sus alumnos |
 | [SOLUCION.md](SOLUCION.md) | Qué hace el producto, pantalla por pantalla, con sus reglas, sus costes y sus criterios de aceptación. Es el documento que manda |
 | [PLAN.md](PLAN.md) | Cómo se construyó, en 21 capas (histórico) |
 | [PROMPT-CLAUDE-DESIGN.md](PROMPT-CLAUDE-DESIGN.md) y [diseno/](diseno/README.md) | El encargo de diseño y el diseño de partida |

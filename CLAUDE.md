@@ -117,7 +117,7 @@ pasos ni des nada por hecho: quien lo instala puede no haber programado nunca.
 | **Claude (Anthropic)** | La inteligencia artificial: contesta, crea el material y corrige. Modelos por defecto en `src/servidor/ia/modelos.ts`, cambiables con `MODELO_PRINCIPAL` y `MODELO_RAPIDO`. |
 | **Voyage AI** (opcional) | La búsqueda por significado en el temario. Sin ella, busca solo por palabras y ya acierta la página en 46 de 50 dudas típicas. |
 | **Resend** | Los correos: el enlace para entrar, invitaciones y avisos. |
-| **Vercel** | Publica la web y lanza cada mañana la tarea de los avisos (`vercel.json`). |
+| **Vercel** | Publica la web, la ejecuta en París para que esté al lado de la base de datos y lanza cada mañana la tarea de los avisos (`vercel.json`). |
 | **GitHub** | La copia del proyecto en internet, con todo su historial. |
 | **Playwright** | El robot de pruebas: abre la web de verdad y comprueba que funciona (`npm run pruebas`). |
 

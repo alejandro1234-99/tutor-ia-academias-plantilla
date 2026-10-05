@@ -1,0 +1,127 @@
+// =====================================================================
+//  CONFIGURACIÓN DE LA ACADEMIA
+//  Todo lo que cambia de una academia a otra está en este archivo.
+//  Cambiar de academia es cambiar este archivo y subir su temario:
+//  no se toca el código.
+//
+//  Las líneas que empiezan por // son explicaciones: la app no las lee.
+//  Si falta una línea obligatoria o un color está mal escrito, la web no
+//  se publica y dice en español qué línea falla.
+//
+//  Aquí NO van claves ni contraseñas: esas viven en el archivo de
+//  secretos, que nunca se sube a internet.
+//
+//  ACADEMIA DE EJEMPLO para probar el clonado. Todo es inventado.
+// =====================================================================
+{
+  // Nombre de la academia, tal como lo verá el alumno.
+  "nombre": "Academia Vanguardia",
+
+  // Versión corta, para el móvil y para el icono de la pantalla de inicio.
+  "nombreCorto": "Vanguardia",
+
+  // El logotipo, en esta misma carpeta. Formato SVG.
+  "logo": "logo.svg",
+
+  // El icono cuadrado para instalar la app en el móvil. PNG de 512 × 512.
+  "icono": "icono.png",
+
+  // El color de la marca (botón principal, enlaces, citas). Formato #RRGGBB.
+  "colorPrincipal": "#1B2A4A",
+
+  // El color de lo destacado (resaltado, racha, gráficos). Formato #RRGGBB.
+  "colorAcento": "#C8102E",
+
+  // OPCIONAL. Ajuste fino de los colores en modo oscuro y claro, tal como
+  // salen en el diseño. Si no se pone, la app los calcula sola.
+  "coloresAjustados": {
+    "oscuro": {
+      "brand": "#8FA6D6", "onBrand": "#0A1020", "ink": "#9DB2E0",
+      "brandSoft": "#141D33", "brandLine": "#2A3A5E",
+      "accent": "#C8102E", "accentInk": "#F2677A", "accentSoft": "rgba(242,103,122,.22)",
+      "onAccent": "#FFFFFF", "logo": "#8FA6D6"
+    },
+    "claro": {
+      "brand": "#1B2A4A", "onBrand": "#FFFFFF", "ink": "#1B2A4A",
+      "brandSoft": "#E6E9F0", "brandLine": "#C3CADA",
+      "accent": "#C8102E", "accentInk": "#C8102E", "accentSoft": "rgba(200,16,46,.13)",
+      "onAccent": "#FFFFFF", "logo": "#1B2A4A"
+    }
+  },
+
+  // Cómo se llama el asistente de estudio.
+  "asistente": {
+    "nombre": "Vega"
+  },
+
+  // Las oposiciones que prepara la academia, con su regla de simulacro.
+  "oposiciones": [
+    {
+      "clave": "policia-nacional-escala-basica",
+      "nombre": "Policía Nacional · Escala Básica",
+      "simulacro": { "restaPorFallo": 0.3333, "segundosPorPregunta": 60 },
+      "preguntasDeEjemplo": [
+        "¿Cuáles son los principios básicos de actuación de las Fuerzas y Cuerpos de Seguridad?",
+        "¿Qué funciones tiene la Policía Nacional?",
+        "¿Qué escalas tiene la Policía Nacional?"
+      ]
+    }
+  ],
+
+  // La dirección web de la academia.
+  "web": {
+    "direccion": "estudio.academiavanguardia.es"
+  },
+
+  // Desde qué dirección salen los avisos y qué nombre ve el alumno.
+  "correo": {
+    "remitente": "avisos@academiavanguardia.es",
+    "nombreRemitente": "Academia Vanguardia",
+    "ayudaAlumnos": "hola@academiavanguardia.es"
+  },
+
+  // Límites de uso.
+  "limites": {
+    "preguntasAlDia": 25,
+    "materialesAlMes": 20,
+    "materialesFormadorAlMes": 100,
+    "topeAcademiaPreguntasMes": 5000,
+    "topeAcademiaMaterialesMes": 500,
+    "alumnosIncluidos": 50,
+    "paginasVisorPorHora": 60
+  },
+
+  // Avisos por correo.
+  "avisos": {
+    "diasParaRecordatorio": 5,
+    "diasParaRiesgo": 7
+  },
+
+  // Privacidad.
+  "privacidad": {
+    "minimoAlumnosParaSumar": 5
+  },
+
+  // Datos legales. INVENTADOS.
+  "legal": {
+    "razonSocial": "Vanguardia Formación S.L.",
+    "cif": "B11111111",
+    "direccion": "Avenida Inventada 2, 41000 Sevilla",
+    "correoPrivacidad": "privacidad@academiavanguardia.es",
+    "edadMinima": 14
+  },
+
+  // El texto discreto del pie de página.
+  "pie": {
+    "funcionaCon": "Funciona con [nuestra marca]"
+  },
+
+  // Idioma de la app.
+  "idioma": "es",
+
+  // Servicio pausado.
+  "servicioPausado": false,
+
+  // Funciones a medida.
+  "interruptores": {}
+}

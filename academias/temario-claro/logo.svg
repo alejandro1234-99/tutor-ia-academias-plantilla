@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="28" viewBox="0 0 140 28" role="img" aria-label="Temario Claro">
+  <rect x="0" y="0.5" width="27" height="27" rx="8" fill="var(--logo, #0F4C5C)"/>
+  <text x="13.5" y="21" text-anchor="middle" class="letra-serif" font-family="'Instrument Serif', Georgia, serif" font-size="20" fill="var(--bg, #FFFFFF)">T</text>
+  <text x="36" y="20.5" class="letra-serif" font-family="'Instrument Serif', Georgia, serif" font-size="20" fill="var(--text, #16160F)">Temario <tspan font-style="italic">Claro</tspan></text>
+</svg>

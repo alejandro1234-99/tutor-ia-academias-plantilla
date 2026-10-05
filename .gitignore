@@ -1,0 +1,46 @@
+# ===================================================================
+#  LO QUE NUNCA SE SUBE A INTERNET
+#  Git ignora por completo todo lo que aparece en este archivo.
+#  Si algo esta aqui, no llega a GitHub ni por accidente.
+# ===================================================================
+
+# --- CLAVES Y SECRETOS. Esta es la linea que te salva. ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# --- Librerias descargadas. Pesan cientos de MB y se recuperan solas. ---
+node_modules/
+
+# --- Archivos que genera el ordenador al construir la web ---
+.next/
+dist/
+build/
+out/
+.vercel/
+.turbo/
+
+# --- Basura del sistema operativo ---
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+
+# --- Archivos temporales de editores ---
+*.swp
+.idea/
+
+# --- Se generan solos desde academias/<academia> al arrancar o publicar ---
+src/configuracion/generada.json
+public/academia/
+
+# --- Resultados del robot de pruebas ---
+test-results/
+playwright-report/
+pruebas/.auth/
+tsconfig.tsbuildinfo
+public/pdf.worker.min.mjs
+datos-de-prueba/resultados/

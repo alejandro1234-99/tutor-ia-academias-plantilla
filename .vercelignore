@@ -1,0 +1,18 @@
+# ===================================================================
+#  LO QUE NO SE SUBE A LA WEB PUBLICADA
+#  Los documentos del proyecto (precios, plan, diseño...), el material
+#  de prueba y las referencias se quedan fuera: la web no los enseña.
+# ===================================================================
+
+*.md
+!README.md
+diseno/
+referencias/
+datos-de-prueba/
+pruebas/
+test-results/
+playwright-report/
+.claude/
+
+# Material para leer, no para servir.
+docs/

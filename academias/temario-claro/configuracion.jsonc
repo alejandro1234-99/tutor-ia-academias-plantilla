@@ -1,0 +1,145 @@
+// =====================================================================
+//  CONFIGURACIÓN DE LA ACADEMIA
+//  Todo lo que cambia de una academia a otra está en este archivo.
+//  Cambiar de academia es cambiar este archivo y subir su temario:
+//  no se toca el código.
+//
+//  Las líneas que empiezan por // son explicaciones: la app no las lee.
+//  Si falta una línea obligatoria o un color está mal escrito, la web no
+//  se publica y dice en español qué línea falla.
+//
+//  Aquí NO van claves ni contraseñas: esas viven en el archivo de
+//  secretos, que nunca se sube a internet.
+//
+//  ACADEMIA DE EJEMPLO. Todo es inventado, para construir y probar.
+// =====================================================================
+{
+  // Nombre de la academia, tal como lo verá el alumno.
+  "nombre": "Academia Temario Claro",
+
+  // Versión corta, para el móvil y para el icono de la pantalla de inicio.
+  "nombreCorto": "Temario Claro",
+
+  // El logotipo, en esta misma carpeta. Formato SVG.
+  "logo": "logo.svg",
+
+  // El icono cuadrado para instalar la app en el móvil. PNG de 512 × 512.
+  "icono": "icono.png",
+
+  // El color de la marca (botón principal, enlaces, citas). Formato #RRGGBB.
+  "colorPrincipal": "#0F4C5C",
+
+  // El color de lo destacado (resaltado, racha, gráficos). Formato #RRGGBB.
+  "colorAcento": "#F2C14E",
+
+  // OPCIONAL. Ajuste fino de los colores en modo oscuro y claro, tal como
+  // salen en el diseño. Si no se pone, la app los calcula sola a partir de
+  // los dos colores de arriba, con buen contraste.
+  "coloresAjustados": {
+    "oscuro": {
+      "brand": "#6DB7C8", "onBrand": "#06181D", "ink": "#86C6D4",
+      "brandSoft": "#0E2A31", "brandLine": "#1D4A55",
+      "accent": "#F2C14E", "accentInk": "#F2C14E", "accentSoft": "rgba(242,193,78,.24)",
+      "onAccent": "#16160F", "logo": "#6DB7C8"
+    },
+    "claro": {
+      "brand": "#0F4C5C", "onBrand": "#FFFFFF", "ink": "#0F4C5C",
+      "brandSoft": "#E3EEF0", "brandLine": "#B9D3D9",
+      "accent": "#F2C14E", "accentInk": "#8A6212", "accentSoft": "rgba(242,193,78,.45)",
+      "onAccent": "#16160F", "logo": "#0F4C5C"
+    }
+  },
+
+  // Cómo se llama el asistente de estudio.
+  "asistente": {
+    "nombre": "Clara"
+  },
+
+  // Las oposiciones que prepara la academia. Cada una con su regla de
+  // simulacro: cuánto resta cada fallo (1/3 = 0.3333) y cuántos segundos
+  // hay por pregunta. El dueño puede ajustar la regla desde sus ajustes.
+  // Las preguntas de ejemplo salen en el chat vacío, para pulsarlas.
+  "oposiciones": [
+    {
+      "clave": "auxiliar-administrativo-estado",
+      "nombre": "Auxiliar Administrativo del Estado",
+      "simulacro": { "restaPorFallo": 0.3333, "segundosPorPregunta": 60 },
+      "preguntasDeEjemplo": [
+        "¿Qué mayoría hace falta para aprobar una moción de censura?",
+        "¿Cuándo es desestimatorio el silencio administrativo?",
+        "¿Qué plazo tengo para un recurso de alzada?"
+      ]
+    }
+  ],
+
+  // La dirección web de la academia.
+  "web": {
+    "direccion": "estudio.temarioclaro.es"
+  },
+
+  // Desde qué dirección salen los avisos y qué nombre ve el alumno en su
+  // bandeja de entrada.
+  "correo": {
+    "remitente": "avisos@temarioclaro.es",
+    "nombreRemitente": "Academia Temario Claro",
+    // Correo de la academia para que el alumno pida ayuda.
+    "ayudaAlumnos": "hola@temarioclaro.es"
+  },
+
+  // Límites de uso. Ver la sección 7 de SOLUCION.md.
+  "limites": {
+    // Preguntas al día por alumno.
+    "preguntasAlDia": 25,
+    // Materiales al mes por alumno.
+    "materialesAlMes": 20,
+    // Materiales al mes por formador (cuentan para el tope de la academia).
+    "materialesFormadorAlMes": 100,
+    // Tope de preguntas al mes de toda la academia.
+    "topeAcademiaPreguntasMes": 5000,
+    // Tope de materiales al mes de toda la academia.
+    "topeAcademiaMaterialesMes": 500,
+    // Alumnos incluidos en la cuota.
+    "alumnosIncluidos": 50,
+    // Páginas del temario que un alumno puede ver por hora en el visor.
+    "paginasVisorPorHora": 60
+  },
+
+  // Avisos por correo.
+  "avisos": {
+    // Días sin entrar antes de mandar el recordatorio al alumno.
+    "diasParaRecordatorio": 5,
+    // Días sin entrar para aparecer en «alumnos en riesgo».
+    "diasParaRiesgo": 7
+  },
+
+  // Privacidad: por debajo de este número de alumnos, los datos sumados
+  // no se enseñan.
+  "privacidad": {
+    "minimoAlumnosParaSumar": 5
+  },
+
+  // Datos legales, para los textos legales. INVENTADOS.
+  "legal": {
+    "razonSocial": "Temario Claro S.L.",
+    "cif": "B00000000",
+    "direccion": "Calle Inventada 1, 28000 Madrid",
+    "correoPrivacidad": "privacidad@temarioclaro.es",
+    "edadMinima": 14
+  },
+
+  // El texto discreto del pie de página.
+  "pie": {
+    "funcionaCon": "Funciona con [nuestra marca]"
+  },
+
+  // Idioma de la app.
+  "idioma": "es",
+
+  // Servicio pausado: si se pone a true, los alumnos ven «El servicio está
+  // pausado. Habla con tu academia» y nadie puede entrar.
+  "servicioPausado": false,
+
+  // Funciones a medida encendidas o apagadas para esta academia.
+  // (Ninguna en la primera versión.)
+  "interruptores": {}
+}

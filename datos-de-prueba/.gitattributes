@@ -1,0 +1,3 @@
+# Que Git no toque nunca estos archivos por dentro
+*.pdf binary
+*.xlsx binary

@@ -1,0 +1,47 @@
+{
+  "name": "tutor-ia-academias",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "node scripts/comprobar-configuracion.mjs && next build",
+    "start": "next start",
+    "lint": "eslint",
+    "db:migrar": "node --env-file-if-exists=.env.local scripts/migrar.mjs",
+    "db:datos-prueba": "node scripts/comprobar-configuracion.mjs && tsx --conditions=react-server --env-file-if-exists=.env.local scripts/datos-prueba.ts",
+    "comprobar:configuracion": "node scripts/comprobar-configuracion.mjs",
+    "comprobar:marca": "node scripts/comprobar-marca.mjs",
+    "pruebas": "playwright test",
+    "predev": "node scripts/comprobar-configuracion.mjs",
+    "temario:huellas": "tsx --conditions=react-server --env-file-if-exists=.env.local scripts/temario-huellas.ts",
+    "alta:academia": "node scripts/comprobar-configuracion.mjs && tsx --conditions=react-server --env-file-if-exists=.env.local scripts/alta-academia.ts",
+    "prueba:50-dudas": "node scripts/comprobar-configuracion.mjs && tsx --conditions=react-server --env-file-if-exists=.env.local scripts/prueba-50-dudas.ts"
+  },
+  "engines": {
+    "node": ">=20.9"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.129.0",
+    "exceljs": "^4.4.0",
+    "jsonc-parser": "^3.3.1",
+    "next": "^16.3.7",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^6.3.289",
+    "postgres": "^3.4.9",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "server-only": "^0.0.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^22.20.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.3.7",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  }
+}

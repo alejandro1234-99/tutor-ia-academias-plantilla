@@ -1,0 +1,308 @@
+{
+  "v": 3,
+  "attachments": {},
+  "boards": {
+    "A10-Resultado-claro.dc.html": {
+      "h": 900,
+      "title": "A10 · Resultado · claro",
+      "w": 1440,
+      "x": 3040,
+      "y": 12504
+    },
+    "A10-Resultado-movil.dc.html": {
+      "h": 2080,
+      "title": "A10 · Resultado (página completa)",
+      "w": 390,
+      "x": 4230,
+      "y": 6460
+    },
+    "A10-Resultado.dc.html": {
+      "h": 900,
+      "title": "A10 · Resultado",
+      "w": 1440,
+      "x": 4560,
+      "y": 11204
+    },
+    "A11-Biblioteca-claro-movil.dc.html": {
+      "h": 844,
+      "title": "A11 · Biblioteca · claro",
+      "w": 390,
+      "x": 1410,
+      "y": 8940
+    },
+    "A11-Biblioteca-movil.dc.html": {
+      "h": 844,
+      "title": "A11 · Biblioteca · llena",
+      "w": 390,
+      "x": 2820,
+      "y": 6460
+    },
+    "A11-Biblioteca-vacia-movil.dc.html": {
+      "h": 844,
+      "title": "A11 · Biblioteca · vacía",
+      "w": 390,
+      "x": 3290,
+      "y": 6460
+    },
+    "A11-Biblioteca-vacia.dc.html": {
+      "h": 900,
+      "title": "A11 · Biblioteca · «De mi academia» vacía",
+      "w": 1440,
+      "x": 1520,
+      "y": 11204
+    },
+    "A11-Biblioteca.dc.html": {
+      "h": 900,
+      "title": "A11 · Biblioteca · llena",
+      "w": 1440,
+      "x": 0,
+      "y": 11204
+    },
+    "A3-No-esta-en-temario-movil.dc.html": {
+      "h": 844,
+      "title": "A3 · Preguntar · no está en el temario + formador",
+      "w": 390,
+      "x": 940,
+      "y": 6460
+    },
+    "A3-Preguntar-claro-movil.dc.html": {
+      "h": 844,
+      "title": "A3 · Preguntar · claro",
+      "w": 390,
+      "x": 0,
+      "y": 8940
+    },
+    "A3-Preguntar-claro.dc.html": {
+      "h": 900,
+      "title": "A3 · Preguntar · claro",
+      "w": 1440,
+      "x": 0,
+      "y": 12504
+    },
+    "A3-Preguntar-movil.dc.html": {
+      "h": 844,
+      "title": "A3 · Preguntar · conversación",
+      "w": 390,
+      "x": 470,
+      "y": 6460
+    },
+    "A3-Preguntar-vacio-movil.dc.html": {
+      "h": 844,
+      "title": "A3 · Preguntar · vacío la primera vez",
+      "w": 390,
+      "x": 0,
+      "y": 6460
+    },
+    "A3-Preguntar-vacio.dc.html": {
+      "h": 900,
+      "title": "A3 · Preguntar · vacío",
+      "w": 1440,
+      "x": 0,
+      "y": 10184
+    },
+    "A3-Preguntar.dc.html": {
+      "h": 900,
+      "title": "A3 · Preguntar · conversación",
+      "w": 1440,
+      "x": 1520,
+      "y": 10184
+    },
+    "A4-Visor-claro-movil.dc.html": {
+      "h": 844,
+      "title": "A4 · Visor · claro",
+      "w": 390,
+      "x": 470,
+      "y": 8940
+    },
+    "A4-Visor-claro.dc.html": {
+      "h": 900,
+      "title": "A4 · Visor · claro",
+      "w": 1440,
+      "x": 1520,
+      "y": 12504
+    },
+    "A4-Visor-movil.dc.html": {
+      "h": 844,
+      "title": "A4 · Visor del temario",
+      "w": 390,
+      "x": 1410,
+      "y": 6460
+    },
+    "A4-Visor.dc.html": {
+      "h": 900,
+      "title": "A4 · Visor del temario (junto al chat)",
+      "w": 1440,
+      "x": 3040,
+      "y": 10184
+    },
+    "A6-Crear-paso1-movil.dc.html": {
+      "h": 844,
+      "title": "A6 · Crear · paso 1 (primera vez)",
+      "w": 390,
+      "x": 1880,
+      "y": 6460
+    },
+    "A6-Crear-paso3-claro-movil.dc.html": {
+      "h": 844,
+      "title": "A6 · Crear · claro",
+      "w": 390,
+      "x": 940,
+      "y": 8940
+    },
+    "A6-Crear-paso3-movil.dc.html": {
+      "h": 844,
+      "title": "A6 · Crear · paso 3 (tarjetas)",
+      "w": 390,
+      "x": 2350,
+      "y": 6460
+    },
+    "A6-Crear.dc.html": {
+      "h": 900,
+      "title": "A6 · Crear material",
+      "w": 1440,
+      "x": 4560,
+      "y": 10184
+    },
+    "A9-Simulacro-claro-movil.dc.html": {
+      "h": 844,
+      "title": "A9 · Simulacro · claro",
+      "w": 390,
+      "x": 1880,
+      "y": 8940
+    },
+    "A9-Simulacro-movil.dc.html": {
+      "h": 844,
+      "title": "A9 · Simulacro",
+      "w": 390,
+      "x": 3760,
+      "y": 6460
+    },
+    "A9-Test.dc.html": {
+      "h": 900,
+      "title": "A9 · Test de práctica",
+      "w": 1440,
+      "x": 3040,
+      "y": 11204
+    },
+    "Main.dc.html": {
+      "h": 4400,
+      "title": "Sistema visual · Fundamentos",
+      "w": 1440,
+      "x": 0,
+      "y": 0
+    },
+    "Marca-blanca.dc.html": {
+      "h": 1260,
+      "title": "Marca blanca · A3 en las dos academias",
+      "w": 1880,
+      "x": 0,
+      "y": 4800
+    },
+    "Sistema-Controles.dc.html": {
+      "h": 2400,
+      "title": "Sistema visual · Controles",
+      "w": 1440,
+      "x": 1520,
+      "y": 0
+    },
+    "Sistema-Piezas.dc.html": {
+      "h": 3500,
+      "title": "Sistema visual · Piezas del producto",
+      "w": 1440,
+      "x": 3040,
+      "y": 0
+    }
+  },
+  "createdOnFiles": {
+    "at": "2026-09-24T18:19:17Z",
+    "v": 1
+  },
+  "designSystems": [],
+  "launch": {
+    "view": "canvas"
+  },
+  "notes": {
+    "t-desk": {
+      "kind": "title1",
+      "maxW": 5920,
+      "text": "Alumno · ordenador 1440 · oscuro",
+      "w": 240,
+      "x": 0,
+      "y": 9884
+    },
+    "t-desk-claro": {
+      "kind": "title1",
+      "maxW": 4480,
+      "text": "Alumno · ordenador 1440 · claro",
+      "w": 240,
+      "x": 0,
+      "y": 12204
+    },
+    "t-marca": {
+      "kind": "title1",
+      "maxW": 1880,
+      "text": "Prueba de marca blanca",
+      "w": 240,
+      "x": 0,
+      "y": 4500
+    },
+    "t-movil": {
+      "kind": "title1",
+      "maxW": 4610,
+      "text": "Alumno · móvil 390 · oscuro",
+      "w": 240,
+      "x": 0,
+      "y": 6160
+    },
+    "t-movil-claro": {
+      "kind": "title1",
+      "maxW": 2270,
+      "text": "Alumno · móvil 390 · claro",
+      "w": 240,
+      "x": 0,
+      "y": 8640
+    },
+    "t-sistema": {
+      "kind": "title1",
+      "maxW": 4480,
+      "text": "Sistema visual · oscuro y claro",
+      "w": 240,
+      "x": 0,
+      "y": -300
+    }
+  },
+  "order": [
+    "Main.dc.html",
+    "Sistema-Controles.dc.html",
+    "Sistema-Piezas.dc.html",
+    "Marca-blanca.dc.html",
+    "A3-Preguntar-vacio-movil.dc.html",
+    "A3-Preguntar-movil.dc.html",
+    "A3-No-esta-en-temario-movil.dc.html",
+    "A4-Visor-movil.dc.html",
+    "A6-Crear-paso1-movil.dc.html",
+    "A6-Crear-paso3-movil.dc.html",
+    "A11-Biblioteca-movil.dc.html",
+    "A11-Biblioteca-vacia-movil.dc.html",
+    "A9-Simulacro-movil.dc.html",
+    "A10-Resultado-movil.dc.html",
+    "A3-Preguntar-claro-movil.dc.html",
+    "A4-Visor-claro-movil.dc.html",
+    "A6-Crear-paso3-claro-movil.dc.html",
+    "A11-Biblioteca-claro-movil.dc.html",
+    "A9-Simulacro-claro-movil.dc.html",
+    "A3-Preguntar-vacio.dc.html",
+    "A3-Preguntar.dc.html",
+    "A4-Visor.dc.html",
+    "A6-Crear.dc.html",
+    "A11-Biblioteca.dc.html",
+    "A11-Biblioteca-vacia.dc.html",
+    "A9-Test.dc.html",
+    "A10-Resultado.dc.html",
+    "A3-Preguntar-claro.dc.html",
+    "A4-Visor-claro.dc.html",
+    "A10-Resultado-claro.dc.html"
+  ],
+  "pages": [],
+  "title": "Asistente de estudio · Ronda 1"
+}
